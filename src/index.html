@@ -3,9 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
+  <title>Cryptocurreny Analytics</title>
 </head>
 <body>
-  
+  <h1>Cryptocurreny Anayltics Dashboard (data provided by CoinGecko)</h1>
+  <div id="cryptoSearch">
+    <input type="radio" name="crypto" value="bitcoin" id="bitcoin">
+    <label for="bitcoin">Bitcoin (BTC)</label> <br>
+    <input type="radio" name="crypto" value="ethereum" id="ethereum">
+    <label for="ethereum">Ethereum (ETH)</label> <br>
+    <input type="radio" name="crypto" value="tether" id="tether">
+    <label for="tether">Tether (USDT)</label> <br>
+    <input type="radio" name="crypto" value="binancecoin" id="binancecoin">
+    <label for="binancecoin">BNB (BNB)</label> <br>
+    <input type="radio" name="crypto" value="solana" id="solana">
+    <label for="solana">Solana (SOL)</label> <br>
+    <input type="radio" name="crypto" value="usd-coin" id="usd-coin">
+    <label for="usd-coin">USD Coin (USDC)</label> <br>
+    <input type="radio" name="crypto" value="cardano" id="cardano">
+    <label for="cardano">Cardano (ADA)</label> <br>
+  </div>
+  <div>
+    <p id="fullName" class="metadata"> </p>
+    <p id="description" class="metadata"> </p>
+    <p id="currentPrice" class="metadata"> </p>
+    <p id="marketCap" class="metadata"> </p>
+    <p id="numberOfTrades" class="metadata"> </p>
+  </div>
+  <p id="error"> </p>
 </body>
 </html>
